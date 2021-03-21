@@ -25,7 +25,7 @@ a gallery and pool.
   <img src="/ReadmeFiles/example2.jpg" width="400"/>
   <img src="/ReadmeFiles/example3.jpg" width="400"/>
   
-# How it works it:   
+# Use Userinterface:   
 1.)  
 Go to the Folder **picx** and start **picx.exe**  
 Now you should have access the the application, open    
