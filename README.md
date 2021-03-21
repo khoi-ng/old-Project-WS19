@@ -9,6 +9,7 @@ MongoDB is needed to store the images and userdata created by this application.
 The Application creates a mosaic image out of many tiny pictures.
 The Algorithm takes small Areas of the image, calculates the average Brightness and RGB values
 and then replaces the Area with a small image that has a average Brightness and RGB very close to the Area.
+The Algorithm is by all means not optimized, it's clear that parallel Asynchronious functions can be used.
 
 # Examples:
 
