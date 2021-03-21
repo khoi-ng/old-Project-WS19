@@ -103,6 +103,6 @@ The documentation in Folder Doku is in german, and isnt that well written by me.
 <img src="/ReadmeFiles/18.PNG" width="700"/>
 
 
-You can download and delete pictures   
-<img src="/ReadmeFiles/20.PNG" width="700"/>
+You can download and delete pictures    
+<img src="/ReadmeFiles/20.png" width="700"/>
 <img src="/ReadmeFiles/19.PNG" width="700"/>
