@@ -3,10 +3,10 @@ This was one of my first webapplication written in 2019 as a project for univers
 There is no indent to develop it any further, it is a very unstructured project.
 
 It is written in Golang and Plain Javascript.
-For this Application you need to install MongoDB, the free verion is enough.
+For this Application you need to install MongoDB, the free version is enough.
 MongoDB is needed to store the images and userdata created by this application.
 
-The Application create a mosaic image out of many tiny pictures.
+The Application creates a mosaic image out of many tiny pictures.
 The Algorithm takes small Areas of the image, calculates the average Brightness and RGB values
 and then replaces the Area with a small image that has a average Brightness and RGB very close to the Area.
 
