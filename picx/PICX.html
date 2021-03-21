@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        @font-face {
+            font-family: silkscreen;
+            src: url('fonts/slkscr.TTF');
+        }
+
+        #flexColum {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .flexRow {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 20px;
+        }
+
+        .flexRowChild {
+            font-family: silkscreen;
+            color: rgb(165, 164, 164);
+            font-size: 3vw;
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 3px;
+        }
+
+        #introIMG1 {
+            margin-right: 20px
+        }
+
+        #introtext0 {
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        #introIMG2 {
+            margin-left: 20px
+        }
+
+        .welcomeTitle {
+            font-size: 3.5vw;
+            font-family: silkscreen;
+            color: rgb(93, 79, 223);
+        }
+
+        #BasicMotivDemoImg,
+        #MosaicsDemoImg {
+            max-width: 100%;
+            opacity: 0.95;
+        }
+
+        #demoMosaicsEyeImg {
+            max-width: 100%;
+            opacity: 1;
+        }
+
+        .signUPCreate {
+            color: rgb(93, 79, 223);
+            margin-left: 20px;
+            margin-bottom: 50px;
+        }
+    </style>
+    <link rel="stylesheet" href="CSS_FONTS/picxStyle.css">
+    <script src="JS/PICX.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PICX Hausarbeit Webprogrammierung</title>
+</head>
+
+<body>
+    <div class="box">
+        <header class="row header">
+            <!--<img class="logo" src="PICXlogo.png" alt="logo">-->
+            <div class="logo links">PICX</div>
+            <nav class="center">
+                <ul class="nav_center">
+                    <li><a></a></li>
+                    <li><a></a></li>
+                    <li><a></a></li>
+                </ul>
+            </nav>
+            <div class="rechts">
+                <a class="logReg" id="log"><span><img id="loginICON" src="Icons/loginICON.png" alt="."> LOG
+                        IN</span></a>
+                <a class="logReg" id="reg">SIGN UP</a>
+            </div>
+        </header>
+        <div class="row content">
+            <div class="welcomeTitle"> Welcome to PICX </div>
+            <div class="signUPCreate">Sign up to create your own mosaic Images. </div>
+            <div class="flexColum">
+
+                <div class="flexRow">
+                    <div class="flexRowChild" id="introIMG">
+                        <img id="demoMosaicsEyeImg" src="Demo/demoMosaicsEye2.png" alt=".">
+                    </div>
+                </div>
+                <div class="flexRow">
+                    <div class="flexRowChild introtext" id="introtext0">
+                        This above is a example of how precised you can produce a Mosaic.
+                    </div>
+                </div>
+                <!--   <div class="flexRow">
+                    <div class="flexRowChild" id="introIMG1">
+                        <img id="BasicMotivDemoImg" src="Demo/BasicMotivDemo.png" alt=".">
+                    </div>
+                    <div class="flexRowChild introtext" id="introtext1">
+                        Upload a beautiful Gallery of Base Motifs.
+                    </div>
+                </div>
+                <div class="flexRow">
+                    <div class="flexRowChild introtext" id="introtext2">
+                        Create a Collection of Mosaic Images.
+                    </div>
+                    <div class="flexRowChild" id="introIMG2">
+                        <img id="MosaicsDemoImg" src="Demo/MosaicsDemo2.png" alt=".">
+                    </div>
+
+                </div>-->
+            </div>
+
+        </div>
+        <div class="row footer">
+            <p>Webprogrammierung Hausarbeit &copy; <b>Duy Khoi Nguyen</b></p>
+        </div>
+
+        <div id="popUPID">
+            <div class="pupup-content" id="pupup-contentID">
+                <div id="closeDIV"><span class="close">&times;</span></div>
+                <div id="loginRegIMGDIV"><img id="loginRegIMG" src="Icons/login2.png" alt="."></div>
+                <div id="feedDIV">{{if .Feedback}}<div id="feedbackID" style="color:{{.Color}};">{{.Feedback}}</div>
+                    {{end}}</div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
